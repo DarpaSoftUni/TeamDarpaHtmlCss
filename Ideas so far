@@ -1,0 +1,14 @@
+1. Menu
+2 Section 1
+  - About the project
+3. Section 2 
+  - Funny pictures of softuni students or pictures of us with link to section 4
+  
+4. Section 3
+  - Jokes with modal header and hover effect
+  - add joke button and open modal header with text area to dynamiclly add joke to that section (javascript needed)
+5. Section 4 - The team
+  - About each one of us TEXT AND PICTURES
+6. .........videos?
+7. Add footer 
+  - html & css validator (regular footer with no style)
