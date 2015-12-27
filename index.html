@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="bootstrap-3.3.6-dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <link href="navbar-fixed-top.css" rel="stylesheet">
+
+    <!--<link rel="icon" href="images/favicon.ico">-->
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/myStyle.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="sweetalert-master/dist/sweetalert.css">
+
+    <script src="sweetalert-master/dist/sweetalert.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <style>
+        .carousel-inner > .item > img,
+        .carousel-inner > .item > a > img {
+            width: 15%;
+            margin: auto;
+        }
+
+        .container {
+            width: 100%;
+            margin: 0px;
+            margin-top: 5%;
+        }
+    </style>
+    <title>TeamDarpa</title>
+
+</head>
+<body>
+
+<!-- Fixed navbar -->
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-top">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">TeamWork Darpa</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#jokes-section">Jokes</a></li>
+
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="../navbar/">Default</a></li>
+                <li><a href="../navbar-static-top/">Static top</a></li>
+                <li class="active"><a href="./">Fixed top <span class="sr-only">(current)</span></a></li>
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div>
+</nav>
+
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+<script src="../../dist/js/bootstrap.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+<script src="scripts.js"></script>
+
+
+<section id="two-cols-description-with-image" class="two-cols-description-with-image">
+    <div class="container-fluid">
+        <div class="row two-cols-description-with-image-body">
+
+            <!-- Start: TWO COLS DESCRIPTION TEXT -->
+            <div class="description-info col-sm-6 wow fadeInLeft">
+
+                <div class="description-info-inner section-separator">
+
+                    <!-- Start: Section Header -->
+                    <div class="section-header align-left">
+
+                        <h2 class="section-heading">About Our Application</h2>
+                        <p>JOBSAPP is a multi-platform, easy to work with application. In just few steps you are ready
+                            to start working.</p>
+
+                    </div>
+                    <!-- End: Section Header -->
+
+                    <!-- Start: .chaecklist -->
+                    <ul class="checklist">
+                        <li>Choose your platform.</li>
+                        <li>Sign up.</li>
+                        <li>Log into your account.</li>
+                        <li>Post an add.</li>
+                        <li class="visible-lg">Start saving time and money.</li>
+                    </ul>
+                    <!-- End: .checklist -->
+
+                    <!-- Read More Button -->
+                    <a href="#0" class="btn btn-1 btn-left btn-read-more">Keep it for now</a>
+
+                </div>
+
+            </div>
+            <!-- End: TWO COLS DESCRIPTION TEXT -->
+
+            <!-- Start: TWO COLS DESCRIPTION IMAGE -->
+            <div class="two-cols-description-image col-sm-6">
+                <img src="images/gallery/gallery-1.jpg" alt="">
+            </div>
+            <!-- End: TWO COLS DESCRIPTION IMAGE -->
+
+        </div>
+    </div>
+</section>
+
+<div class="container">
+    <br>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+
+            <div class="item active">
+                <img src="images/clients-pic/jason_img.png" alt="Chania" width="180" height="180">
+                <div class="carousel-caption">
+                    <h3>Chania</h3>
+                    <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="images/clients-pic/jason_img.png" alt="Chania" width="180" height="180">
+                <div class="carousel-caption">
+                    <h3>Chania</h3>
+                    <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="images/clients-pic/jason_img.png" alt="Flower" width="180" height="180">
+                <div class="carousel-caption">
+                    <h3>Flowers</h3>
+                    <p>Beatiful flowers in Kolymbari, Crete.</p>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="images/clients-pic/jason_img.png" alt="Flower" width="180" height="180">
+                <div class="carousel-caption">
+                    <h3>Flowers</h3>
+                    <p>Beatiful flowers in Kolymbari, Crete.</p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
+<div class="container">
+    <div class="jokes-container" id="jokes-section">
+        <div class="section-header col-md-8 col-md-offset-2">
+
+            <h2 class="section-heading">Our top rated jokes</h2>
+            <p>Hover over the button for preview or click it to see the whole joke</p>
+
+        </div>
+        <div class="inner-joke-container">
+
+            <!-- Trigger the modal with a button -->
+            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">
+                <a data-toggle="tooltip" title="Teacher: Kids, what does the chicken give you?...">Read joke</a>
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" role="dialog">
+                <div class="modal-dialog">
+
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Modal Header</h4>
+                        </div>
+                        <div class="modal-body">
+                            <img class="img-responsive" src="http://vmatechs.com/wp-content/uploads/2013/07/android.jpg"
+                                 alt="image"/>
+                            <p>Teacher: "Kids, what does the chicken give you?"
+                                Student: "Meat!"
+                                Teacher: "Very good! Now what does the pig give you?"
+                                Student: "Bacon!"
+                                Teacher: "Great! And what does the fat cow give you?"
+                                Student: "Homework!"</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="inner-joke-container">
+
+            <!-- Trigger the modal with a button -->
+            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal1">Read joke
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="myModal1" role="dialog">
+                <div class="modal-dialog">
+
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Modal Header</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>A husband and wife are trying to set up a new password for their computer.
+                                The husband puts, "Mypenis," and the wife falls on the ground laughing because on the
+                                screen it says,
+                                "Error. Not long enough."</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="inner-joke-container">
+
+            <!-- Trigger the modal with a button -->
+            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal2">Read joke
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="myModal2" role="dialog">
+                <div class="modal-dialog">
+
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Modal Header</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>First programmers joke to put in here</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="inner-joke-container">
+
+            <!-- Trigger the modal with a button -->
+            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal3">Read joke
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="myModal3" role="dialog">
+                <div class="modal-dialog">
+
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Modal Header</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>First programmers joke to put in here</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="inner-joke-container">
+            <!--<h4>First joke example ... </h4>-->
+            <!-- Trigger the modal with a button -->
+            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal4">Read joke
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="myModal4" role="dialog">
+                <div class="modal-dialog">
+
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Modal Header</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>First programmers joke to put in here</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div id="add-joke-button-container">
+        <!-- Trigger the modal with a button -->
+        <button type="button" class="btn btn-info btn-lg" id="add-joke-button" data-toggle="modal" data-target="#joke-form">Add Joke
+        </button>
+        <!-- Modal -->
+        <div class="modal fade" id="joke-form" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Write a joke and post it.</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container">
+                            <!--<h2>Form control: textarea</h2>-->
+                            <!--<p>The form below contains a textarea for comments:</p>-->
+                            <form role="form">
+                                <div class="form-group">
+                                    <label for="comment">Your joke:</label>
+                                    <textarea class="form-control" rows="5" id="comment"></textarea>
+                                </div>
+                            </form>
+                        </div>
+                        <p>You must be logged into your account to post a joke</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Post</button>
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<section class="collapse-area" id="collapse-area">
+    <div class="container">
+        <div class="row section-separator">
+
+            <!-- Start: Section Header -->
+            <div class="section-header col-md-8 col-md-offset-2">
+
+                <h2 class="section-heading">What our clients say about us.</h2>
+                <p>Lorem ipsum dolor sit amet event landing template, consectetur adipisicing elit. Suscipit corrupti
+                    facilis event landing template, enim earum numquam minus veritatis nobis accusamus similique,
+                    totam?</p>
+
+            </div>
+            <!-- End: Section Header -->
+
+
+            <!-- Start: Collapse Area Inner  -->
+            <div class="collapse-inner col-sm-12 col-md-offset-2 col-md-8">
+                <!--  Start: Collapse-tab  -->
+                <div class="collapse-tab wow fadeInDown">
+                    <div class="panel-group" id="accordion">
+
+                        <!-- Start: Tab-1 -->
+                        <div class="panel panel-default" id="panel1">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+
+                                    <!-- Tab-1 Title Goes Here  -->
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" class="">
+
+                                        <span class="collapse-icon"><i class="fa fa-angle-down"></i></span>
+                                        <p><img src="images\clients-pic/jason_img.png"/> Jason Malcolm, Founder & CEO,
+                                            Blitline</p>
+                                    </a>
+
+                                </h4>
+                            </div>
+                            <div id="collapseOne" class="panel-collapse collapse in">
+
+                                <!-- Tab-1 Detail Goes Here  -->
+                                <div class="panel-body">
+                                    Lorem ipsum dolor sit amet event landing template, consectetuer adipiscing elit
+                                    event landing template, sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                                    magna aliquam erat volutpat. Ut wisi enim ad minim veniam event landing template,
+                                    quis nostrud exerci tation ullamcorp eu feugiat nulla facilisis at vero eros et
+                                    accumsan et iusto odior
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- End: Tab-1 -->
+
+                        <!-- Start: Tab-2 -->
+                        <div class="panel panel-default" id="panel2">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+
+                                    <!-- Tab-1 Title Goes Here  -->
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"
+                                       class="collapsed">
+
+                                        <span class="collapse-icon"><i class="fa fa-angle-down"></i></span>
+                                        <p><img src="images\clients-pic/jason_img.png"/> Jason Malcolm, Founder & CEO,
+                                            Blitline</p>
+                                    </a>
+
+                                </h4>
+                            </div>
+                            <div id="collapseTwo" class="panel-collapse collapse">
+
+                                <!-- Tab-2 Detail Goes Here  -->
+                                <div class="panel-body">
+                                    Anim pariatur cliche reprehenderit event landing template, enim eiusmod high life
+                                    accusamus terry richardson ad squid. 3 wolf moon officia aute event landing
+                                    template, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum
+                                    eiusmod. Brunch 3.
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- End: Tab-2 -->
+
+                        <!-- Start: Tab-3 -->
+                        <div class="panel panel-default" id="panel3">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+
+                                    <!-- Tab-3 Title Goes Here  -->
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree"
+                                       class="collapsed">
+                                        <span class="collapse-icon"><i class="fa fa-angle-down"></i></span>
+                                        <p><img src="images\clients-pic/jason_img.png"/> Jason Malcolm, Founder & CEO,
+                                            Blitline</p>
+                                    </a>
+
+                                </h4>
+                            </div>
+                            <div id="collapseThree" class="panel-collapse collapse">
+
+                                <!-- Tab-3 Detail Goes Here  -->
+                                <div class="panel-body">
+                                    Anim pariatur cliche reprehenderit event landing template, enim eiusmod high life
+                                    accusamus terry richardson ad squid. 3 wolf moon officia aute event landing
+                                    template, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum
+                                    eiusmod. Brunch 3.
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- End: Tab-3 -->
+
+                        <!-- Start: Tab-4 -->
+                        <div class="panel panel-default" id="panel4">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+
+                                    <!-- Tab-4 Title Goes Here  -->
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour"
+                                       class="collapsed">
+                                        <span class="collapse-icon"><i class="fa fa-angle-down"></i></span>
+                                        <p><img src="images\clients-pic/jason_img.png"/> Jason Malcolm, Founder & CEO,
+                                            Blitline </p>
+                                    </a>
+
+                                </h4>
+                            </div>
+                            <div id="collapseFour" class="panel-collapse collapse">
+
+                                <!-- Tab-4 Detail Goes Here  -->
+                                <div class="panel-body">
+                                    Anim pariatur cliche reprehenderit event landing template, enim eiusmod high life
+                                    accusamus terry richardson ad squid. 3 wolf moon officia aute event landing
+                                    template, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum
+                                    eiusmod. Brunch 3.
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- End: Tab-4 -->
+
+                    </div>
+                    <!-- End: .panel-group  -->
+                </div>
+                <!--  End: .collapse-tab  -->
+
+            </div>
+            <!-- End: Collapse Area Inner  -->
+
+
+        </div>
+        <!-- End: .row  -->
+    </div>
+    <!-- End: .container  -->
+</section>
+</body>
+</html>

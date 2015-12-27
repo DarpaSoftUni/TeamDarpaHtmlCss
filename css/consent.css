@@ -1,0 +1,13 @@
+.cookies-consent { display: none; background-color: #1cbbb4; width: 100%; position: fixed; text-align: center; z-index: 999; }
+.cookies-consent.top { top: 0; left: 0; }
+.cookies-consent.bottom { bottom: 0; left: 0;  }
+.cookies-consent p { color: #fff; margin: 7px 30px; font-size: .875rem; }
+.cookies-consent p .agree-btn {
+    border:2px solid #FFF;
+    border-radius:100px;
+    padding: 1px 8px 3px;
+    color:#FFF;
+    font-weight:bold;
+    font-size: 12px;
+    margin-left:10px
+}
