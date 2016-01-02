@@ -1,0 +1,28 @@
+.inner-joke-container{
+    width: 13%;
+    float: left;
+    margin-left: 5%;
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 15%;
+    margin: auto;
+}
+.container{
+    margin-top: 5%;
+}
+/*.jokes-container{*/
+    /*margin-top: 5%;*/
+/*}*/
+#add-joke-button-container{
+    margin: 0 auto;
+    text-align: center;
+}
+#add-joke-button{
+    background-color: slateblue;
+    color: gold;
+}
+#add-joke-button:hover{
+    transition: all 1.5s;
+    background-color: #4f3f76;
+}
