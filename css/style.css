@@ -2722,3 +2722,19 @@ aside .thumbnail {
   color: #4C4C4C;
   border: none;
 }
+
+/*  Metodi code for carousel STARTS here*/
+#myCarousel{
+  height:250px;
+  background-color: #000;
+}
+.carousel-indicators{
+  position: relative;
+  left: auto;
+  top: 90%;
+}
+.imagesInCarousel{
+  max-height: 200px;
+  border-radius: 25%;
+}
+/*  Metodi code for carousel ENDS here*/
