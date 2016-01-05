@@ -25,19 +25,67 @@ Theme: super heroes
 
 
 Menu:
-- SuperSoftUni
+- Home / SuperSoftUni
+
+text: 
+SuperSoftUni
+This is the official site of the Bulgarian SuperSoftUni
+Just a bunch of superheroes trying to make Bulgaria the silicone Gotham City
+
+
+  - прелитащи супер Наковци
+  - кратък текст и описание в ляво
+  - картинка в дясно
+
+
 - Team:
   - Nakov
   - Alex
   - Bankin
   - Fil
   - Nasko
-- About the creators
 - Jokes
+- About the creators
 
 
-Team member info:
-- Name:
+Nakov
+- Name: Svetlin Nakov
+- Nickname: SuperNakov
+- Super power: flying, educating idiots to become half-human
+- Occupation: 
+- Race: ultra human
+- Base: The NakCave
+
+
+Alex
+- Name: Alex Svilarova
+- Nickname: 
+- Super power:
+- Occupation:
+- Race: 
+- Base:
+
+
+Angel
+- Name: Angel Georgiev
+- Nickname: Acho The Power
+- Super power:
+- Occupation:
+- Race: 
+- Base:
+
+
+Bankin
+- Name: Nik Bankin
+- Nickname: 
+- Super power:
+- Occupation:
+- Race: 
+- Base:
+
+
+Fil
+- Name: Fil Kolev
 - Nickname: 
 - Super power:
 - Occupation:
