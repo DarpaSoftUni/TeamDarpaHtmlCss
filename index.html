@@ -15,32 +15,19 @@
     <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
 
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/myStyle.css">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="sweetalert-master/dist/sweetalert.css">
 
     <script src="sweetalert-master/dist/sweetalert.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <style>
-        .carousel-inner > .item > img,
-        .carousel-inner > .item > a > img {
-            width: 15%;
-            margin: auto;
-        }
 
-        .container {
-            width: 100%;
-            margin: 0px;
-            margin-top: 5%;
-        }
-    </style>
     <title>TeamDarpa</title>
 
 </head>
-<body>
+<body data-spy="scroll" data-offset="80">
 
 <!-- Fixed navbar -->
 <nav class="navbar navbar-default navbar-fixed-top">
@@ -57,15 +44,10 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#about">About</a></li>
+                <li class="active"><a href="#home">Home</a></li>
+                <li><a href="#team">Super Team</a></li>
                 <li><a href="#jokes-section">Jokes</a></li>
-
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="../navbar/">Default</a></li>
-                <li><a href="../navbar-static-top/">Static top</a></li>
-                <li class="active"><a href="./">Fixed top <span class="sr-only">(current)</span></a></li>
+                <li><a href="#about">About the team</a></li>
             </ul>
         </div><!--/.nav-collapse -->
     </div>
@@ -84,36 +66,36 @@
 
 
 <section id="two-cols-description-with-image" class="two-cols-description-with-image">
-    <div class="container-fluid">
+    <div class="container-fluid" id="home">
         <div class="row two-cols-description-with-image-body">
 
             <!-- Start: TWO COLS DESCRIPTION TEXT -->
-            <div class="description-info col-sm-6 wow fadeInLeft">
+            <div class="description-info col-sm-12 col-md-4 wow fadeInLeft">
 
                 <div class="description-info-inner section-separator">
 
                     <!-- Start: Section Header -->
                     <div class="section-header align-left">
 
-                        <h2 class="section-heading">About Our Application</h2>
-                        <p>JOBSAPP is a multi-platform, easy to work with application. In just few steps you are ready
-                            to start working.</p>
+                        <h2 class="section-heading">SuperSoftUni</h2>
+                        <p>This is the official site of the Bulgarian SuperSoftUni!
+                            Just a bunch of superheroes trying to make Bulgaria the silicone Gotham City
+                    </p>
 
                     </div>
                     <!-- End: Section Header -->
 
                     <!-- Start: .chaecklist -->
                     <ul class="checklist">
-                        <li>Choose your platform.</li>
-                        <li>Sign up.</li>
-                        <li>Log into your account.</li>
-                        <li>Post an add.</li>
-                        <li class="visible-lg">Start saving time and money.</li>
+                        <li>Choose your field</li>
+                        <li>Choose your language</li>
+                        <li>Choose your career</li>
+                        <li>Choose your destiny!</li>
                     </ul>
                     <!-- End: .checklist -->
 
                     <!-- Read More Button -->
-                    <a href="#0" class="btn btn-1 btn-left btn-read-more">Keep it for now</a>
+                    <a href="http://www.softuni.bg" class="btn btn-1 btn-left btn-read-more" target="_blank">Start Now</a>
 
                 </div>
 
@@ -121,8 +103,7 @@
             <!-- End: TWO COLS DESCRIPTION TEXT -->
 
             <!-- Start: TWO COLS DESCRIPTION IMAGE -->
-            <div class="two-cols-description-image col-sm-6">
-                <img src="images/gallery/gallery-1.jpg" alt="">
+            <div class="two-cols-description-image col-sm-12 col-md-8">
             </div>
             <!-- End: TWO COLS DESCRIPTION IMAGE -->
 
@@ -130,7 +111,7 @@
     </div>
 </section>
 
-<div class="container">
+<div class="container" id="team">
     <br>
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
@@ -143,39 +124,45 @@
 
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
-
             <div class="item active">
-                <img src="Resources/Nakov_Sea.png" alt="Nakov" class="imagesInCarousel">
-                <div class="carousel-caption">
-                    <h3>Nakov</h3>
-                    <p>Known as Super Nakov</p>
-                </div>
+                <a data-toggle="modal" data-target="#modalNakov">
+                    <img src="Resources/Nakov_Sea.png" alt="Nakov" class="imagesInCarousel">
+                    <div class="carousel-caption">
+                        <h3>Nakov</h3>
+                        <p>Known as Super Nakov</p>
+                    </div>
+                </a>
             </div>
 
             <div class="item">
-                <img src="Resources/Bankin_Intro.png" alt="Bankin" class="imagesInCarousel">
-                <div class="carousel-caption">
-                    <h3>Bankin</h3>
-                    <p>Leader of Noobs</p>
-                </div>
+                <a data-toggle="modal" data-target="#modalNik">
+                    <img src="Resources/Bankin_Intro.png" alt="Flower" class="imagesInCarousel">
+                    <div class="carousel-caption">
+                        <h3>Bankin</h3>
+                        <p>The Element Inspector</p>
+                    </div>
+                </a>    
             </div>
 
             <div class="item">
-                <img src="images/clients-pic/jason_img.png" alt="Flower" width="180" height="180">
-                <div class="carousel-caption">
-                    <h3>Flowers</h3>
-                    <p>Beautiful flowers in Kolymbari, Crete.</p>
-                </div>
+                <a data-toggle="modal" data-target="#modalAngel">
+                    <img src="Resources/angel.jpg" alt="Angel"  class="imagesInCarousel">
+                    <div class="carousel-caption">
+                        <h3>Angel</h3>
+                        <p>The crows manipulator</p>
+                    </div>
+                </a>
             </div>
 
             <div class="item">
-                <img src="images/clients-pic/jason_img.png" alt="Flower" width="180" height="180">
-                <div class="carousel-caption">
-                    <h3>Flowers</h3>
-                    <p>Beatiful flowers in Kolymbari, Crete.</p>
-                </div>
+                <a data-toggle="modal" data-target="#modalFil">
+                    <img src="Resources/fil.jpg" alt="Fil Kolev" class="imagesInCarousel">
+                    <div class="carousel-caption">
+                        <h3>Fil Kolev</h3>
+                        <p>Beatiful flowers in Kolymbari, Crete.</p>
+                    </div>
+                </a>    
             </div>
-
         </div>
 
         <!-- Left and right controls -->
@@ -189,6 +176,116 @@
         </a>
     </div>
 </div>
+<!-- Beginning of Superheroes modals-->
+        <!-- Begin Nakov Modal-->
+        <div class="modal fade" id="modalNakov" role="dialog">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">SuperNakov</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-responsive left" src="Resources/Nakov_Sea.png"
+                             alt="image"/>
+                        <p class="text-left"><strong>Name: </strong>Svetlin Nakov</p>
+                        <p class="text-left"><strong>Nickname: </strong>SuperNakov</p>
+                        <p class="text-left"><strong>Super power: </strong>flying, converting idiots to half-human, making plane noises</p>
+                        <p class="text-left"><strong>Occupation: </strong>businessman, scholar</p>
+                        <p class="text-left"><strong>Greatest weakness: </strong>Unknown to science</p>
+                        <p class="text-left"><strong>Base: </strong>The NakCave</p>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Nakov Modal-->
+        <!-- Begin Angel Modal-->
+        <div class="modal fade" id="modalAngel" role="dialog">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Angel Georgiev</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-responsive left" src="Resources/angel.jpg"
+                             alt="image"/>
+                        <p class="text-left"><strong>Name: </strong>Angel Georgiev</p>
+                        <p class="text-left"><strong>Nickname: </strong></p>
+                        <p class="text-left"><strong>Super power: </strong>crowd manipulation</p>
+                        <p class="text-left"><strong>Occupation: </strong>metro ticket clerk</p>
+                        <p class="text-left"><strong>Greatest weakness: </strong></p>
+                        <p class="text-left"><strong>Base: </strong>Vardar station</p>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Angel Modal-->
+        <!-- Begin Bankin Modal-->
+        <div class="modal fade" id="modalNik" role="dialog">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Nik Bankin</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-responsive left" src="Resources/Bankin_Intro.png"
+                             alt="image"/>
+                        <p class="text-left"><strong>Name: </strong>Nik Bankin</p>
+                        <p class="text-left"><strong>Nickname: </strong>The Element Inspector</p>
+                        <p class="text-left"><strong>Super power: </strong>eternal Internet connection</p>
+                        <p class="text-left"><strong>Occupation: </strong>front-ender extraordinaire</p>
+                        <p class="text-left"><strong>Greatest weakness: </strong>The Explorer</p>
+                        <p class="text-left"><strong>Base: </strong>the IE Mountain of Horror</p>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Bankin Modal-->
+        <!-- Begin Fil Modal-->
+        <div class="modal fade" id="modalFil" role="dialog">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Fil Kolev</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-responsive left" src="Resources/fil.jpg"
+                             alt="image"/>
+                        <p class="text-left"><strong>Name: </strong>Fil Kolev</p>
+                        <p class="text-left"><strong>Nickname: </strong>Bidona</p>
+                        <p class="text-left"><strong>Super power: </strong>shooting rakia out of his hands</p>
+                        <p class="text-left"><strong>Occupation: </strong>bouncer</p>
+                        <p class="text-left"><strong>Greatest weakness: </strong>water</p>
+                        <p class="text-left"><strong>Base: </strong>The Secret Kiselo Zele Basement</p>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Fil Modal-->
+    <!-- End of Superheroes modals-->
 <div class="container">
     <div class="jokes-container" id="jokes-section">
         <div class="section-header col-md-8 col-md-offset-2">
@@ -201,7 +298,7 @@
 
             <!-- Trigger the modal with a button -->
             <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">
-                <a data-toggle="tooltip" title="Teacher: Kids, what does the chicken give you?...">Read joke</a>
+                <span data-toggle="tooltip" title="Teacher: Kids, what does the chicken give you?...">Read joke</span>
             </button>
 
             <!-- Modal -->
@@ -384,16 +481,14 @@
     </div>
 </div>
 <section class="collapse-area" id="collapse-area">
-    <div class="container">
+    <div class="container" id="about">
         <div class="row section-separator">
 
             <!-- Start: Section Header -->
             <div class="section-header col-md-8 col-md-offset-2">
 
-                <h2 class="section-heading">What our clients say about us.</h2>
-                <p>Lorem ipsum dolor sit amet event landing template, consectetur adipisicing elit. Suscipit corrupti
-                    facilis event landing template, enim earum numquam minus veritatis nobis accusamus similique,
-                    totam?</p>
+                <h2 class="section-heading">Few words about the "creative" team "Darpa"</h2>
+                <p>We are a team of young and unexperienced developers who wish to understand the deepest, most darkest secrets of the programming world. As a team-work assignment we had the hard challenge to create something, which will serve as a proof of our newly acquired knowledge.</p>
 
             </div>
             <!-- End: Section Header -->
@@ -408,15 +503,13 @@
                         <!-- Start: Tab-1 -->
                         <div class="panel panel-default" id="panel1">
                             <div class="panel-heading">
-                                <h4 class="panel-title">
+                                <h4 class="panel-title text-center">
 
                                     <!-- Tab-1 Title Goes Here  -->
                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" class="">
 
                                         <span class="collapse-icon"><i class="fa fa-angle-down"></i></span>
-                                        <p><img src="images\clients-pic/jason_img.png"/> Jason Malcolm, Founder & CEO,
-                                            Blitline</p>
-                                    </a>
+                                        <img src="Resources/asen.jpg" alt="Asen Santev" class="accordeon-image">Asen Santev</a>
 
                                 </h4>
                             </div>
@@ -424,11 +517,7 @@
 
                                 <!-- Tab-1 Detail Goes Here  -->
                                 <div class="panel-body">
-                                    Lorem ipsum dolor sit amet event landing template, consectetuer adipiscing elit
-                                    event landing template, sed diam nonummy nibh euismod tincidunt ut laoreet dolore
-                                    magna aliquam erat volutpat. Ut wisi enim ad minim veniam event landing template,
-                                    quis nostrud exerci tation ullamcorp eu feugiat nulla facilisis at vero eros et
-                                    accumsan et iusto odior
+                                    Metal music addict and guitar wielding maniac. Tunes low, plays slow.
                                 </div>
 
                             </div>
@@ -438,16 +527,14 @@
                         <!-- Start: Tab-2 -->
                         <div class="panel panel-default" id="panel2">
                             <div class="panel-heading">
-                                <h4 class="panel-title">
+                                <h4 class="panel-title text-center">
 
                                     <!-- Tab-1 Title Goes Here  -->
                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"
                                        class="collapsed">
 
                                         <span class="collapse-icon"><i class="fa fa-angle-down"></i></span>
-                                        <p><img src="images\clients-pic/jason_img.png"/> Jason Malcolm, Founder & CEO,
-                                            Blitline</p>
-                                    </a>
+                                        <img src="Resources/kiril.jpg" alt="Jason" class="accordeon-image">Kiril Mavrov</a>
 
                                 </h4>
                             </div>
@@ -455,10 +542,7 @@
 
                                 <!-- Tab-2 Detail Goes Here  -->
                                 <div class="panel-body">
-                                    Anim pariatur cliche reprehenderit event landing template, enim eiusmod high life
-                                    accusamus terry richardson ad squid. 3 wolf moon officia aute event landing
-                                    template, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum
-                                    eiusmod. Brunch 3.
+                                    Technofile, farming extraordinaire.
                                 </div>
 
                             </div>
@@ -468,16 +552,13 @@
                         <!-- Start: Tab-3 -->
                         <div class="panel panel-default" id="panel3">
                             <div class="panel-heading">
-                                <h4 class="panel-title">
+                                <h4 class="panel-title text-center">
 
                                     <!-- Tab-3 Title Goes Here  -->
                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree"
                                        class="collapsed">
                                         <span class="collapse-icon"><i class="fa fa-angle-down"></i></span>
-                                        <p><img src="images\clients-pic/jason_img.png"/> Jason Malcolm, Founder & CEO,
-                                            Blitline</p>
-                                    </a>
-
+                                        <img src="images/clients-pic/jason_img.png" alt="Jason">Tihomir Pelev</a>
                                 </h4>
                             </div>
                             <div id="collapseThree" class="panel-collapse collapse">
@@ -489,7 +570,6 @@
                                     template, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum
                                     eiusmod. Brunch 3.
                                 </div>
-
                             </div>
                         </div>
                         <!-- End: Tab-3 -->
@@ -497,15 +577,13 @@
                         <!-- Start: Tab-4 -->
                         <div class="panel panel-default" id="panel4">
                             <div class="panel-heading">
-                                <h4 class="panel-title">
+                                <h4 class="panel-title text-center">
 
                                     <!-- Tab-4 Title Goes Here  -->
                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour"
                                        class="collapsed">
                                         <span class="collapse-icon"><i class="fa fa-angle-down"></i></span>
-                                        <p><img src="images\clients-pic/jason_img.png"/> Jason Malcolm, Founder & CEO,
-                                            Blitline </p>
-                                    </a>
+                                        <img src="images/clients-pic/jason_img.png" alt="Jason">Metodi Shopov</a>
 
                                 </h4>
                             </div>
