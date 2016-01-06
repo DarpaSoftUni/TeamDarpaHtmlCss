@@ -5,10 +5,13 @@
 }
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
-    width: 15%;
+    width: 25%;
     margin: auto;
 }
-.container{
+
+.container {
+    width: 100%;
+    margin: 0px;
     margin-top: 5%;
 }
 /*.jokes-container{*/
@@ -25,4 +28,78 @@
 #add-joke-button:hover{
     transition: all 1.5s;
     background-color: #4f3f76;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+
+/*  Metodi code for carousel STARTS here*/
+#myCarousel{
+    margin:20px 0;
+    height: 25%;
+    max-height: 400px;
+    padding: 2%;
+}
+.carousel-indicators{
+    position: absolute;
+    left: 50%;
+    top: 95%;
+}
+
+.carousel-caption {
+    color: #fff;
+}
+
+.carousel-caption > h3 {
+    position: absolute;
+    left: 45%;
+    top: 70%;
+}
+.carousel-caption > p {
+    position: relative;
+    top: 120%;
+}
+.carousel-caption {
+    height: 50%;
+}
+.imagesInCarousel{
+    max-height: 80%;
+    border-radius: 25%;
+}
+.activeWrapper{
+    height: 90%;
+}
+/*  Metodi code for carousel ENDS here*/
+
+.two-cols-description-image {
+    background-image: url(../Resources/gotham_background_final.jpg);
+    background-repeat: no-repeat;
+    background-size: 110% 110%;
+}
+
+.description-info-inner .section-heading {
+    margin: 20px 0 60px 0;
+}
+
+.btn-read-more {
+    color: #000;
+}
+
+.img-responsive {
+    margin: 20px;
+    border-radius: 25%; 
+    max-height: 220px;
+}
+
+.accordeon-image {
+    border-radius: 25%; 
+    max-height: 170px;
+    max-width: 170px;
+    margin: 10px;
 }
