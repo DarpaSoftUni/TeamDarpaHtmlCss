@@ -2725,16 +2725,33 @@ aside .thumbnail {
 
 /*  Metodi code for carousel STARTS here*/
 #myCarousel{
-  height:250px;
-  background-color: #000;
+    height: 50%;
+    background-color: #000;
+    padding: 2%;
 }
 .carousel-indicators{
-  position: relative;
-  left: auto;
-  top: 90%;
+    position: relative;
+    left: auto;
+    top: 91.5%;
+}
+h3{
+    position: absolute;
+    left: 45%;
+    right: 45%;
+    top: 40%;
+}
+.carousel-caption > p {
+    position: relative;
+    top: 120%;
+}
+.carousel-caption {
+    height: 50%;
 }
 .imagesInCarousel{
-  max-height: 200px;
-  border-radius: 25%;
+    max-height: 80%;
+    border-radius: 25%;
+}
+.activeWrapper{
+    height: 90%;
 }
 /*  Metodi code for carousel ENDS here*/
