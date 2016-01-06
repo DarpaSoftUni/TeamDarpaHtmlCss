@@ -21,21 +21,14 @@
 Ideas 2016
 
 
-Theme: super heroes
-
-
 Menu:
 - Home / SuperSoftUni
 
 text: 
+
 SuperSoftUni
 This is the official site of the Bulgarian SuperSoftUni
 Just a bunch of superheroes trying to make Bulgaria the silicone Gotham City
-
-
-  - прелитащи супер Наковци
-  - кратък текст и описание в ляво
-  - картинка в дясно
 
 
 - Team:
@@ -43,7 +36,7 @@ Just a bunch of superheroes trying to make Bulgaria the silicone Gotham City
   - Alex
   - Bankin
   - Fil
-  - Nasko
+  - Angel
 - Jokes
 - About the creators
 
@@ -51,45 +44,43 @@ Just a bunch of superheroes trying to make Bulgaria the silicone Gotham City
 Nakov
 - Name: Svetlin Nakov
 - Nickname: SuperNakov
-- Super power: flying, educating idiots to become half-human
-- Occupation: 
-- Race: ultra human
+- Super power: flying, converting idiots to half-human, making plane noises
+- Occupation: businessman, scholar
+- Greatest weakness: 
 - Base: The NakCave
 
 
 Alex
 - Name: Alex Svilarova
 - Nickname: 
-- Super power:
-- Occupation:
-- Race: 
-- Base:
+- Super power: 
+- Occupation: 
+- Greatest weakness: 
+- Base: 
 
 
 Angel
 - Name: Angel Georgiev
-- Nickname: Acho The Power
-- Super power:
-- Occupation:
-- Race: 
-- Base:
+- Nickname: 
+- Super power: crowd manipulation
+- Occupation: metro ticket clerk
+- Greatest weakness: 
+- Base: 
 
 
 Bankin
 - Name: Nik Bankin
-- Nickname: 
-- Super power:
-- Occupation:
-- Race: 
-- Base:
+- Nickname: The Element Inspector
+- Super power: eternal internet connection
+- Occupation: front-ender extraordinaire
+- Greatest weakness: The Explorer
+- Base: the IE Mountain of Horror
 
 
 Fil
 - Name: Fil Kolev
-- Nickname: 
-- Super power:
-- Occupation:
-- Race: 
-- Base:
-
-alabala
+- Nickname: Bidona
+- Super power: shooting rakia out of his hands
+- Occupation: bouncer
+- Greatest weakness: water
+- Base: The Secret Kiselo Zele Basement 
